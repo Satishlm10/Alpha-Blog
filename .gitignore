@@ -1,0 +1,81 @@
+# Ignore bundler config
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+
+# Ignore compiled files
+/public/assets
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+npm-debug.log*
+yarn-debug.log*
+
+# Ignore local databases
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore environment files (sensitive credentials)
+.env
+.env.local
+.env.*.local
+
+# Ignore byebug command history file.
+.byebug_history
+
+# Ignore credentials and master key files
+/config/master.key
+/config/credentials.yml.enc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore coverage reports
+/coverage
+/spec/tmp
+/spec/examples.txt
+
+# Ignore IDE/editor settings
+.idea
+.vscode
+*.swp
+*.swo
+
+# Ignore Ruby version manager files
+.rbenv-vars
+/.rvmrc
+/.ruby-version
+/.ruby-gemset
+
+# Ignore pidfiles, sockets, and caches
+/tmp/pids/*
+/tmp/sockets/*
+/tmp/cache/*
+
+# Ignore build artifacts and packaged files
+*.gem
+*.rbc
+
+# Ignore Capybara screenshots
+capybara-*.png
+
+# Ignore test coverage and reports
+coverage/
+test/tmp/
+test/version_tmp/
+
+# Ignore documentation build
+/doc/
+
+# Ignore dotenv environment backups
+.envrc
