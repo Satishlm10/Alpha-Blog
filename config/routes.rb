@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
   root "pages#home"
   get "about", to: "pages#about"
+  resources :articles, only: [ :show ] # resources provides us all the actions but we can use only what we need using the only command
 end
